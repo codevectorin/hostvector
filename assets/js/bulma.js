@@ -10,10 +10,12 @@
         });
     }
 })();
+document.addEventListener('DOMContentLoaded', function () {
+        var simple = document.querySelector('.js_slider');
 
-var flkty = new Flickity( '.main-gallery', {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
+        lory(simple, {
+            infinite: 1
+        });
+    });
+
 //#3273dc
