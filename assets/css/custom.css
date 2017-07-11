@@ -256,13 +256,13 @@ section#some-features .card-image .image img{
 
 .flickity .carousel-cell {
   width: 20%;
-  height: 100px;
+  height: 80px;
   margin-right: 10px;
   border-radius: 5px;
   
 }
 .flickity .carousel-cell figure.image.is-1by1 img{
-	height: 80px;
+	height: 60px;
 	padding: 10px auto;
 }
 
