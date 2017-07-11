@@ -247,3 +247,28 @@ section#some-features .card-image .image img{
   right: 8px;
   background-image: url(http://adamgraysondsgn.com/images/rightArrow.svg);
 }
+
+/** lory  */
+.flickity.carousel {
+  
+  margin-bottom: 10px;
+}
+
+.flickity .carousel-cell {
+  width: 20%;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+  
+}
+.flickity .carousel-cell figure.image.is-1by1 img{
+	height: 80px;
+	padding: 10px auto;
+}
+
+/* cell number */
+.flickity .carousel-cell:before {
+  display: block;
+  text-align: center;
+  color: white;
+}
