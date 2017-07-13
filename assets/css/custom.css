@@ -407,3 +407,25 @@ section#some-features .card-image .image img{
   font-size: 80px;
   color: white;
 }
+
+
+.footer {
+  background-color: #161616;
+}
+
+
+.footer h5 {
+  color: #0069FF;
+}
+
+.footer h5::after {
+  content: url("../img/h_line.svg");
+  position: absolute;
+  left: 1;
+  right: 1;
+  width: 75px;
+  vertical-align: center;
+  margin-left: -5%
+  margin-bottom: 1em;
+}
+
