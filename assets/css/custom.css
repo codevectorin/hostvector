@@ -449,6 +449,7 @@ font-family: open sans;
 }
 
 .footer a {
+  color: #939393;
   display: block;
   vertical-align: middle;
 }
