@@ -555,24 +555,25 @@ section#some-features .card-image .image img {
 .hv-pricing-box .pricing-footer {
     padding: 20px;
 }
-.hv-pricing-box .type,.hv-pricing-box .prices{
-	transition: background 0.5s,color 0.5s ease-in-out;
+.hv-pricing-box .type,.hv-pricing-box .prices,.hv-pricing-box .pricing-footer a.button{
+	transition: background 1s,color 0.5s ease-in-out;
 }
 .hv-pricing-box {
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s,box-shadow 0.75s ease-in-out;
 }
 
 .hv-pricing-box:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(0,0,0,0.18);
 }
-.columns.price-list-interactive:hover .hv-pricing-box .type {
+.columns.price-list-interactive:hover .hv-pricing-box .type,.columns.price-list-interactive:hover .hv-pricing-box .pricing-footer a.button{
     background-color: black;
     color: grey;
 }
 .columns.price-list-interactive:hover .hv-pricing-box .price {
     color: grey;
 }
-.columns.price-list-interactive .hv-pricing-box:hover .type {
+.columns.price-list-interactive .hv-pricing-box:hover .type, .columns.price-list-interactive .hv-pricing-box:hover .pricing-footer a.button{
     background-color: #3273dc;
     color: white;
 
@@ -591,10 +592,3 @@ section#some-features .card-image .image img {
     padding: 0;
 }
 
-.hv-pricing-box {
-    margin-left: 1px;
-}
-
-.columns.price-list-interactive>div:first-child .hv-pricing-box {
-    margin-left: 0px;
-}
