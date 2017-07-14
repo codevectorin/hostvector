@@ -34,6 +34,7 @@
     background-position: 0 50%;
     background-size: 100% auto;
     background-size: cover;
+    
     border-radius: 0px;
     height: 64px;
     width: 100%;
@@ -448,7 +449,7 @@ font-family: open sans;
 }
 
 .footer a {
-  color: #667;
+  color: #9999;
   display: block;
   vertical-align: middle;
 }
