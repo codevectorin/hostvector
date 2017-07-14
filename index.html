@@ -361,8 +361,7 @@ PRICING STYLES
  
  
 .db-pricing-eleven { 
-    margin-bottom: 30px; 
-    margin-top: 50px; 
+    
     text-align: center; 
     border: 1px lightgrey solid; 
     color: grey; 
@@ -417,6 +416,9 @@ PRICING STYLES
         padding: 20px; 
     } 
  
+.columns.db-attached{
+    align-items: stretch
+}
 .db-attached .column { 
     padding-left: 0; 
     padding-right: 0; 
@@ -426,6 +428,11 @@ PRICING STYLES
 } 
  .db-pricing-eleven:hover{
     transform: scale(1.05);
+ }
+ .more-plans-link .flex-box{
+    display: flex;
+  align-items: center;
+  justify-content: center;
  }
 </style> 
         <section class="section"> 
@@ -500,9 +507,13 @@ PRICING STYLES
                     </div> 
                           </div> 
                 </div> 
-                <div class="column is-3" style="display flex;flex: 1 1 auto; flex-direction: column;"> 
-                    <div class="db-pricing-eleven db-bk-color-six" style="flex-grow: 1;"> 
-                        HELLO
+                <div class="column is-3 more-plans-link"> 
+                    <div class="db-pricing-eleven flex-box" style="height: 100%">
+                        <span class="subtitle">Check out more plans!</span>
+                        <hr>
+                        <a href="plans.html" class="button is-info db-button-color-square is-large">
+                            MORE PLANS
+                        </a>
                     </div> 
                 </div> 
             
