@@ -412,21 +412,22 @@ section#some-features .card-image .image img{
 }
 
 
+/* Footer Styles */
 .footer {
 padding-top: 15px;
 padding-bottom: 0px;
 background: #f0f0f0;
 box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
 font-size: 14px;
-color: #999;
+color: #b4b4b4;
 line-height: 1.8em;
 -webkit-font-smoothing: antialiased;
-font-family: open sans;
+font-family: 'Open Sans', sans-serif;
 }
 
 .footer > .container {
     padding-top: 2em;
-    padding-bottom: 50px;
+    padding-bottom: 8em;
     margin: 0 auto;
 }
 
