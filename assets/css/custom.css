@@ -413,22 +413,61 @@ section#some-features .card-image .image img{
 
 
 .footer {
-  background-color: #161616;
+padding-top: 15px;
+background: #f0f0f0;
+box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
+font-size: 13px;
+color: #999;
+line-height: 1.8em;
+-webkit-font-smoothing: antialiased;
+font-family: open sans;
+}
+
+.footer .container {
+    width: 94%;
+    max-width: 1200px;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+.footer .column {
+    align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 .footer h5 {
-  color: #0069FF;
+  color: #0049b2;
+  font-weight: bolder;
 }
 
-.footer h5::after {
-  content: url("../img/h_line.svg");
-  position: absolute;
-  left: 1;
-  right: 1;
-  width: 75px;
-  vertical-align: center;
-  margin-left: -5%
-  margin-bottom: 1em;
+.footer a {
+  color: #9999;
+  display: block;
+  vertical-align: middle;
 }
 
+.footer a:hover {
+color: #161616;
+transition: .5s all;
+}
+
+.footer span {
+  color: #0069ff;
+  font-size: 14px;
+}
+
+.footer i {
+  margin-top:5px
+}
+
+.is-subscribe:hover,.is-subscribe:focus {
+  border-color: #7fb4ff;
+}
