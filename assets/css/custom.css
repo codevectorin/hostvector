@@ -416,7 +416,7 @@ section#some-features .card-image .image img{
 padding-top: 15px;
 background: #f0f0f0;
 box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
-font-size: 13px;
+font-size: 14px;
 color: #999;
 line-height: 1.8em;
 -webkit-font-smoothing: antialiased;
@@ -424,8 +424,6 @@ font-family: open sans;
 }
 
 .footer .container {
-    width: 94%;
-    max-width: 1200px;
     padding-top: 2em;
     margin: 0 auto;
 }
@@ -461,7 +459,7 @@ transition: .5s all;
 
 .footer span {
   color: #0069ff;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .footer i {
