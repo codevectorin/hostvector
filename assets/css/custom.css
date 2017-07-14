@@ -555,7 +555,9 @@ section#some-features .card-image .image img {
 .hv-pricing-box .pricing-footer {
     padding: 20px;
 }
-
+.hv-pricing-box .type,.hv-pricing-box .prices{
+	transition: background 0.5s,color 0.5s ease-in-out;
+}
 .hv-pricing-box {
     transition: transform 0.5s ease-in-out;
 }
@@ -563,9 +565,25 @@ section#some-features .card-image .image img {
 .hv-pricing-box:hover {
     transform: scale(1.05);
 }
+.columns.price-list-interactive:hover .hv-pricing-box .type {
+    background-color: black;
+    color: grey;
+}
+.columns.price-list-interactive:hover .hv-pricing-box .price {
+    color: grey;
+}
+.columns.price-list-interactive .hv-pricing-box:hover .type {
+    background-color: #3273dc;
+    color: white;
+
+}
+.columns.price-list-interactive .hv-pricing-box:hover .price {
+    color: #3273dc;
+
+}
 
 .columns.price-list-interactive {
-    border: 1px lightgrey solid;
+    aborder: 1px lightgrey solid;
     align-items: stretch
 }
 
