@@ -1,0 +1,7 @@
+{
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "curl/curl": "^1.6",
+        "twig/twig": "~1.0"
+    }
+}
