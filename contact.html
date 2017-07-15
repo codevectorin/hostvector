@@ -107,7 +107,7 @@
                     Contact Us
                 </h1>
                 <p class="subtitle is-4" style="color: grey">
-                    Juts another subtitle message
+                    Clarifications? Ask us, we are happy to help you!
                 </p>
                 <hr>
 
@@ -117,24 +117,22 @@
                   </div>
                   <div class="field-body">
                     <div class="field is-grouped">
-                      <p class="control is-expanded has-icons-left">
-                        <input class="input" type="text" placeholder="Name">
+                      <p class="control is-expanded has-icons-left has-icons-right">
+                        <input class="input" type="text" onblur="validateInput(this,'vNameResponse')" placeholder="Name">
                         <span class="icon is-small is-left">
                           <i class="fa fa-user"></i>
                         </span>
+                        <label id="vNameResponse"></label>
                       </p>
                     </div>
                     <div class="field">
                       <p class="control is-expanded has-icons-left has-icons-right">
-                        <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com">
+                        <input class="input" onblur="validateEmail(this)" type="email" placeholder="Email">
                         <span class="icon is-small is-left">
                           <i class="fa fa-envelope"></i>
                         </span>
-                        <span class="icon is-small is-right">
-                          <i class="fa fa-check"></i>
-                        </span>
-                      </p>
-                      <p class="help is-success">This email is correct</p>
+                        <label id="vEmailResponse"></label>
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -185,11 +183,12 @@
                   </div>
                   <div class="field-body">
                     <div class="field">
-                      <div class="control">
-                        <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity">
-                      </div>
-                      <p class="help is-danger">
-                        This field is required
+                      <p class="control is-expanded has-icons-left has-icons-right">
+                        <input class="input" onblur="validateInput(this,'vSubjectResponse')" type="text" placeholder="e.g. Do you have 1 year subscription?">
+                          <span class="icon is-small is-left">
+                          <i class="fa fa-sticky-note"></i>
+                        </span>
+                        <label id="vSubjectResponse"></label>
                       </p>
                     </div>
                   </div>
