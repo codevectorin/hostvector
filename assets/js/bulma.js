@@ -25,12 +25,12 @@ function validateInput(field,resId) {
 	var resp=document.getElementById(resId);
 	if(field.value == '')
 	{
-		resp.innerHTML=reFormat("Please fill this field",'is-danger','close');
+		resp.innerHTML=reFormat("Please fill this field",'danger','close');
 		field.className="input is-danger";
 	}
 	else
 	{
-		resp.innerHTML=reFormat('','is-success','check');
+		resp.innerHTML=reFormat('','success','check');
 		field.className="input is-success";
 	}
 }
