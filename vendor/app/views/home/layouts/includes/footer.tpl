@@ -62,7 +62,7 @@
                 <div class="columns">
                     <div class="column">
                         <h5>
-                                Karma
+                                HostVector
                             </h5>
                         <a href="/index.html" title="Home">Home</a>
                         <a href="/plans.html" title="Plans">Plans</a>
@@ -70,15 +70,16 @@
                     </div>
                     <div class="column">
                         <h5>
-                                About
+                                Company
                             </h5>
                         <a href="/about.html" title="About Us">
                                 About Us
                             </a>
                         <a href="/contact.html" title="Contact Us">
-                                Contact
+                                Contact Us
                             </a>
-                        <a href="tos.html" title="Terms of Service">TOS</a>
+                        <a href="tos.html" title="Terms of Service">Terms of Service</a>
+                        <a href="privacy.html" title="Privacy Policy">Privacy Policy</a>
                     </div>
                     <div class="column">
                         <h5>
