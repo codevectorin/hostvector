@@ -126,6 +126,6 @@ class __TwigTemplate_b3e2ccccb8a0e559a2afa4fc91a0bf1765a49c20db8616f42368d1b1501
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "home/layouts/main.tpl", "/var/www/html/Projects/hv/vendor/app/views/home/layouts/main.tpl");
+        return new Twig_Source("", "home/layouts/main.tpl", "/var/www/html/Projects/hostvector/vendor/app/views/home/layouts/main.tpl");
     }
 }
