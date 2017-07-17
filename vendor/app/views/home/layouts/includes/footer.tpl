@@ -1,62 +1,4 @@
-<section class="section invisible" data-animate data-animation-classes="animated fadeInUp">
-            <div class="container content">
-            <div class="flickity carousel" data-flickity='{ "cellAlign": "left","contain": true, "pageDots": false,"autoPlay": true,"prevNextButtons":false }'>
-  <div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/PHP-logo.svg" />
-      </figure>
-  </div>
-  <div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/MySQL.svg" />
-      </figure>
-  </div>
-  <div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/CPanel_logo.svg" />
-      </figure>
-  </div>
-  <div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/Apache_HTTP_server_logo_(2016).svg" />
-      </figure>
-  </div>
-  <div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/perl-ar21.svg" />
-      </figure>
-  </div>
-<div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/PhpMyAdmin_logo.svg" />
-      </figure>
-  </div>
-<div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/rv-logo.png" />
-      </figure>
-  </div>
-<div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/Softaculous.png" />
-      </figure>
-  </div>
-<div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/clamAV.svg" />
-      </figure>
-  </div>
-  <div class="carousel-cell">
-      <figure class="image is-1by1">
-          <img src="./assets/img/footer/SSH_Communications_Security_logo.svg" />
-      </figure>
-  </div>
-</div>
-
-            </div>
-        </section>
-
-    <footer class="footer invisible" data-animate data-animation-classes="animated fadeInUp" data-animation-delay="300">
+   <footer class="footer invisible" data-animate data-animation-classes="animated fadeInUp" data-animation-delay="300">
         <div class="container">
             <div class="content">
                 <div class="columns">
@@ -96,11 +38,11 @@
                         <h5>
                                 Connect
                             </h5>
-                        <a href="//facebook.com/hostvector.in">
+                        <a href="//facebook.com/hostvector.in" target="__blank">
                             <span class="icon is-small"><i class="fa fa-facebook">
                                 </i></span> Facebook
                         </a>
-                        <a href="//twitter.com/@hostvector">
+                        <a href="//twitter.com/@hostvectorin" target="__blank">
                             <span class="icon is-small"><i class="fa fa-twitter">
                                 </i></span> Twitter
                         </a>
