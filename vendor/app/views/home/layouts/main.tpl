@@ -4,7 +4,7 @@
       {% include 'home/layouts/includes/header.tpl' %}
     </head>
     <body>
-        <section class="hero is-light{% if block('fullscreenHeroBody') is defined %} is-fullheight{% endif %}" id="frontMatter">
+        <section class="hero is-light{% if block('fullscreenHeroBody') is defined %} is-fullheight{% endif %} {{ block('heroClass')|raw }}" id="frontMatter">
             <div class="hero-head">
               {% include 'home/layouts/includes/nav.tpl' %}
             </div>

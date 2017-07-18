@@ -1,18 +1,16 @@
 {% extends 'home/layouts/main.tpl' %}
 
-{% block fullscreenHeroBody %}  
-business-header svg-bg
+{% block heroClass %}business-header{% endblock %}
+{% block fullscreenHeroBody %}
 <div class="container">
-    <div class="columns">
-        <div class="column">
-            <h1 class="title" style="color: skyblue">
-                HostVector for Business!
-            </h1>
-            <h2 class="subtitle">
-                Kickstart your business with the best in-class hosting from HostVector.
-            </h2>
-        </div>
-    </div>
+    <h1 class="title is-1" style="color: white;text-shadow: 1px 1px 1px #000;">
+        HostVector for Business!
+    </h1>
+    <br>
+        <span class="subtitle is-4" style="color: whitesmoke;text-shadow: 1px 1px 1px #000;">
+            Kickstart your business with the best in-class hosting from HostVector.
+        </span>
+    </br>
 </div>
 {% endblock %}
 

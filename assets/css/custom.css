@@ -76,21 +76,6 @@
     justify-content: center;
 }
 
-.brand-block {}
-
-.brand-icon {
-    font-family: 'Megrim', cursive;
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 36px;
-    background-color: #1de9b6;
-    color: white;
-}
-
-.brand-text {
-    font-size: 26px;
-    display: none
-}
 
 .navbar.container {
     margin: 10px auto;
@@ -129,16 +114,18 @@ section#promo-section {
     background-size: auto;
 }
 
-.business-header {
+#frontMatter.business-header {
     background-color: white;
-    background-image: url("/assets/img/bg/background-city2.png");
-    background-position: center bottom;
+    background-image: url("/assets/img/bg/business-bg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     color: black;
     border-bottom: 1px skyblue solid;
-    padding-bottom: 100px;
+    
 }
-
+#frontMatter.business-header .hero-body {
+    background-color: transparent;
+}
 .business-header .title {
     color: black;
 }

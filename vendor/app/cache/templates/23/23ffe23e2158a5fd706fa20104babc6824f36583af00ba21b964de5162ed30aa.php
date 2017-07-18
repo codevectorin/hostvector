@@ -31,6 +31,8 @@ class __TwigTemplate_b3e2ccccb8a0e559a2afa4fc91a0bf1765a49c20db8616f42368d1b1501
         if (        $this->hasBlock("fullscreenHeroBody", $context, $blocks)) {
             echo " is-fullheight";
         }
+        echo " ";
+        $this->displayBlock("heroClass", $context, $blocks);
         echo "\" id=\"frontMatter\">
             <div class=\"hero-head\">
               ";
@@ -113,7 +115,7 @@ class __TwigTemplate_b3e2ccccb8a0e559a2afa4fc91a0bf1765a49c20db8616f42368d1b1501
 
     public function getDebugInfo()
     {
-        return array (  100 => 19,  66 => 22,  64 => 21,  61 => 20,  59 => 19,  55 => 17,  49 => 14,  46 => 13,  44 => 12,  40 => 10,  38 => 9,  31 => 7,  27 => 5,  25 => 4,  20 => 1,);
+        return array (  102 => 19,  68 => 22,  66 => 21,  63 => 20,  61 => 19,  57 => 17,  51 => 14,  48 => 13,  46 => 12,  42 => 10,  40 => 9,  31 => 7,  27 => 5,  25 => 4,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
