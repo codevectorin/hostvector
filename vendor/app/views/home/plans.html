@@ -112,7 +112,8 @@
 		padding:7px 25px 7px 5px
 	}
 }
-.plans-pricing .btn-primary:after {
+
+/*.plans-pricing .btn-primary:after {
 	top:11px;
 	right:13px;
 	width:20px;
@@ -125,7 +126,7 @@
 	text-align:center;
 	font:10px/16px icomoon;
 	border:2px solid #fff
-}
+}*/
 @media only screen and (max-width:991px) {
 	.plans-pricing .btn-primary:after {
 		top:7px;
@@ -466,7 +467,7 @@
 	font-weight:600;
 	line-height:27px;
 	text-align:center;
-	background:#9b62b5;
+	background:#4C8DF6;
 	padding:14px 10px 16px;
 	text-transform:capitalize
 }
@@ -492,10 +493,11 @@
 	height:99px;
 	text-align:center;
 	position:relative;
-	background:#712095;
-	padding:10px 0 15px
+	background:#3273DC;
+	padding:10px 0 15px;
+	color: white;
 }
-.plans-pricing .table .price-box:after {
+/*.plans-pricing .table .price-box:after {
 	left:50%;
 	top:-20px;
 	color:#712095;
@@ -503,7 +505,7 @@
 	content:"\e612";
 	position:absolute;
 	font:30px/34px icomoon
-}
+}*/
 @media only screen and (max-width:991px) {
 	.plans-pricing .table .price-box {
 		height:80px
@@ -515,11 +517,13 @@
 .plans-pricing .table .price-box .price-holder {
 	width:100%;
 	height:100%;
-	display:table
+	display:table;
+	color: white;
 }
 .plans-pricing .table .price-box .price-frame {
 	display:table-cell;
-	vertical-align:bottom
+	vertical-align:bottom;
+	color: white;
 }
 .plans-pricing .table .price-box .since {
 	font-size:18px;
@@ -591,13 +595,13 @@
 }
 .plans-pricing .table .price-box .price {
 	display:block;
-	color:#712095;
+	color:#3273DC;
 	font-size:20px;
 	font-weight:600;
 	padding:2px 5px;
 	line-height:24px;
 	border-radius:17px;
-	background:#f8ca23
+	background:#DB9B32
 }
 .plans-pricing .table .price-box .price.fixed {
 	color:#fff;
@@ -624,7 +628,22 @@
 		font-size:14px
 	}
 }
-
+.heading-block .resource{
+	background-color: grey;
+	padding:15px 10px;
+	margin-top: -10px;
+	text-align: center;
+}
+tr td{
+	text-align: center;
+}
+.panel-heading{
+	background-color: #3273dc;
+	color: white
+}
+tr td .icon{
+	color: #3273dc;
+}
 </style>
 
 <section class="plans-pricing web section" id="plans-pricing">
@@ -632,7 +651,8 @@
       <div class="row">
          <div class="col-xs-12">
             <header class="head">
-               <h1>All The Best Features, at <span> The Best Price!</span></h1>
+            	<h1 class="title is-2" style="color: #3273dc">HostVector Shared Plans</h1>
+               <span class="subtitle is-4">All The Best Features, at <span> The Best Price!</span></span>
                <p>Cloud web hosting features with unlimited specs and premium dedicated support team is the right start for your website. Fast, reliable and strongly secure website hosting for a super low price!</p>
             </header>
             <div id="hosting-tables1" class="panel-group">
@@ -648,14 +668,14 @@
                               <div class="resource free">1x Resources</div>
                               <div class="price-box free">
                                  <div class="price-holder">
-                                    <div class="price-frame"><a href="//www.hostinger.in/cart/add/hosting-hostinger-free?p=12"><strong class="price-free">Rs. 0.00</strong></a></div>
+                                    <div class="price-frame"><strong>Rs. 0.00</strong></div>
                                  </div>
                               </div>
                            </div>
                         </th>
                         <th class="col3 popular">
                            <div class="heading-block">
-                              <strong class="tooltip">Most Popular</strong><strong class="heading">Premium</strong>
+                              <strong class="heading">Premium</strong>
                               <div class="resource">5x Resources</div>
                               <div class="price-box">
                                  <div class="price-holder">
@@ -689,13 +709,13 @@
                            <div>Free Domain Registration</div>
                         </td>
                         <td class="col2" title="Free">
-                           <div><span class="ico icon-x"></span></div>
+                           <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                         </td>
                         <td class="col3" title="Premium">
-                           <div><span class="ico icon-check"></span></div>
+                           <div><span class="icon"><i class="fa fa-check"></i></span></div>
                         </td>
                         <td class="col4 last-child" title="Business">
-                           <div><span class="ico icon-check"></span></div>
+                           <div><span class="icon"><i class="fa fa-check"></i></span></div>
                         </td>
                      </tr>
                      <tr class="odd">
@@ -745,13 +765,13 @@
                            <div>Website Builder</div>
                         </td>
                         <td class="col2" title="Free">
-                           <div><span class="ico icon-check"></span></div>
+                           <div><span class="icon"><i class="fa fa-check"></i></span></div>
                         </td>
                         <td class="col3" title="Premium">
-                           <div><span class="ico icon-check"></span></div>
+                           <div><span class="icon"><i class="fa fa-check"></i></span></div>
                         </td>
                         <td class="col4 last-child" title="Business">
-                           <div><span class="ico icon-check"></span></div>
+                           <div><span class="icon"><i class="fa fa-check"></i></span></div>
                         </td>
                      </tr>
                      <tr class="odd">
@@ -759,7 +779,7 @@
                            <div>Software Auto Installer</div>
                         </td>
                         <td class="col2" title="Free">
-                           <div><span class="ico icon-x"></span></div>
+                           <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                         </td>
                         <td class="col3" title="Premium">
                            <div>90 + scripts</div>
@@ -773,13 +793,13 @@
                            <div>Private SSL certificate</div>
                         </td>
                         <td class="col2" title="Free">
-                           <div><span class="ico icon-x"></span></div>
+                           <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                         </td>
                         <td class="col3" title="Premium">
-                           <div><span class="ico icon-x"></span></div>
+                           <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                         </td>
                         <td class="col4 last-child" title="Business">
-                           <div><span class="ico icon-check"></span></div>
+                           <div><span class="icon"><i class="fa fa-check"></i></span></div>
                         </td>
                      </tr>
                      <tr class="odd">
@@ -829,13 +849,13 @@
                            <div>&nbsp;</div>
                         </td>
                         <td class="col2" title="Free">
-                           <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-free?p=12" class="btn btn-primary">Order</a></div>
+                           <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-free?p=12" class="button is-info">Order</a></div>
                         </td>
                         <td class="col3" title="Premium">
-                           <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-premium?p=12" class="btn btn-primary">Order</a></div>
+                           <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-premium?p=12" class="button is-info">Order</a></div>
                         </td>
                         <td class="col4 last-child" title="Business">
-                           <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-business?p=12" class="btn btn-primary">Order</a></div>
+                           <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-business?p=12" class="button is-info">Order</a></div>
                         </td>
                      </tr>
                   </tbody>
@@ -856,13 +876,13 @@
                                     <div>PHP Support</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -884,13 +904,13 @@
                                     <div>InnoDB Database</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -898,13 +918,13 @@
                                     <div>Remote MySQL connections</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -912,13 +932,13 @@
                                     <div>PHPMyAdmin tool</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -926,13 +946,13 @@
                                     <div>FTP access</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -940,13 +960,13 @@
                                     <div>FTP over SSL</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -968,13 +988,13 @@
                                     <div>Full SSH access</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -982,13 +1002,13 @@
                                     <div>Cron Jobs</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -996,13 +1016,13 @@
                                     <div>Advanced Cron Jobs</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1010,13 +1030,13 @@
                                     <div>Curl and Curl SSL</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1024,13 +1044,13 @@
                                     <div>Audio/Video Streaming</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1071,9 +1091,6 @@
                      <div class="col1">
                         <h2 class="panel-title">EMAIL FEATURES</h2>
                      </div>
-                     <div class="col2">&nbsp;</div>
-                     <div class="col3">&nbsp;</div>
-                     <div class="col4 last-child"><a href="#email-features"></a></div>
                   </div>
                   <div id="email-features">
                      <div class="panel-body">
@@ -1084,7 +1101,7 @@
                                     <div>Email Accounts</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
                                     <div>Unlimited</div>
@@ -1098,13 +1115,13 @@
                                     <div>Webmail Access</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1112,13 +1129,13 @@
                                     <div>POP3/IMAP Access</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1126,13 +1143,13 @@
                                     <div>SMTP access</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1140,13 +1157,13 @@
                                     <div>Spam Filters</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1154,13 +1171,13 @@
                                     <div>Mail Forwarding</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1168,13 +1185,13 @@
                                     <div>Email autoresponders</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                            </tbody>
@@ -1187,9 +1204,6 @@
                      <div class="col1">
                         <h2 class="panel-title">CLIENT SUPPORT OPTIONS</h2>
                      </div>
-                     <div class="col2">&nbsp;</div>
-                     <div class="col3">&nbsp;</div>
-                     <div class="col4 last-child"><a href="#client-support"></a></div>
                   </div>
                   <div id="client-support">
                      <div class="panel-body">
@@ -1200,13 +1214,13 @@
                                     <div>24/7 Support</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1214,13 +1228,13 @@
                                     <div>Priority Support</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1228,13 +1242,13 @@
                                     <div>Support via Ticket</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                            </tbody>
@@ -1247,9 +1261,6 @@
                      <div class="col1">
                         <h2 class="panel-title">Control Panel Tools</h2>
                      </div>
-                     <div class="col2">&nbsp;</div>
-                     <div class="col3">&nbsp;</div>
-                     <div class="col4 last-child"><a href="#control-panel"></a></div>
                   </div>
                   <div id="control-panel">
                      <div class="panel-body">
@@ -1260,13 +1271,13 @@
                                     <div>Email Accounts Manager</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1274,13 +1285,13 @@
                                     <div>Database Backup/Restore</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1288,13 +1299,13 @@
                                     <div>Website Backup/Restore</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1302,13 +1313,13 @@
                                     <div>DNS Zone Editor</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1316,13 +1327,13 @@
                                     <div>2 File Managers</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1330,13 +1341,13 @@
                                     <div>Parked Domains</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1344,13 +1355,13 @@
                                     <div>Addon Domains</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-x"></span></div>
+                                    <div><span class="icon"><i class="fa fa-remove"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1358,13 +1369,13 @@
                                     <div>Domain Redirects</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1372,13 +1383,13 @@
                                     <div>Custom Error Pages</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1386,13 +1397,13 @@
                                     <div>Password Protected Directories</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="odd">
@@ -1400,13 +1411,13 @@
                                     <div>IP Deny Manager</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><span class="ico icon-check"></span></div>
+                                    <div><span class="icon"><i class="fa fa-check"></i></span></div>
                                  </td>
                               </tr>
                               <tr class="even">
@@ -1414,13 +1425,13 @@
                                     <div>&nbsp; &nbsp; &nbsp;</div>
                                  </td>
                                  <td class="col2" title="Free">
-                                    <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-free?p=12" class="btn btn-primary">Order</a></div>
+                                    <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-free?p=12" class="button is-info">Order</a></div>
                                  </td>
                                  <td class="col3" title="Premium">
-                                    <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-premium?p=12" class="btn btn-primary">Order</a></div>
+                                    <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-premium?p=12" class="button is-info">Order</a></div>
                                  </td>
                                  <td class="col4 last-child" title="Business">
-                                    <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-business?p=12" class="btn btn-primary">Order</a></div>
+                                    <div><a href="//www.hostinger.in/cart/add/hosting-hostinger-business?p=12" class="button is-info">Order</a></div>
                                  </td>
                               </tr>
                            </tbody>
