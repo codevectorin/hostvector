@@ -48,23 +48,11 @@
                         </a>
                     </div>
                     <div class="column is-one-third">
-                        <h5>Subscribe to our monthly newsletter</h5>
-                        <div class="field has-addons">
-                          <p class="control has-icons-left has-icons-right">
-                            <input class="input" type="text" placeholder="Your email address">
-                            <span class="icon is-small is-left">
-                              <i class="fa fa-envelope"></i>
-                            </span>
-                          </p>
-                            <p class="control">
-                                <a class="button is-info">
-                                        Subscribe
-                                    </a>
-                            </p>
-                        </div>
+                        <a class="twitter-timeline" data-dnt="true" data-height="200" data-link-color="3273dc" href="https://twitter.com/hostvectorin">Tweets by HostVectorIn</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="background-color: rgb(230,230,230); margin: 0px -24px"><div class="container" style="padding-top:15px;padding-bottom:15px; color:grey">&copy; HostVector. All Rights Reserved! 2014 - 2017</div></div>
+        <div class="bottomPart">
+            <div class="container">&copy; HostVector. All Rights Reserved! 2014 - 2017</div></div>
     </footer>

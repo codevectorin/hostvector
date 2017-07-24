@@ -12,7 +12,7 @@ class Routes
         	array('GET', '/[*:page].html', 'index@showPage'),
 
             /* Comments */
-            array('POST', '/support/add', 'commentsController@add'),
+            array('POST', '/api/support', 'apiController@add'),
 
         ];
 

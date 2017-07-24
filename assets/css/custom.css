@@ -448,7 +448,7 @@ section#some-features .card-image .image img {
 
 .footer>.container {
     padding-top: 2em;
-    padding-bottom: 8em;
+    padding-bottom: 4em;
     margin: 0 auto;
 }
 
@@ -493,7 +493,15 @@ section#some-features .card-image .image img {
 .is-subscribe:hover, .is-subscribe:focus {
     border-color: #7fb4ff;
 }
-
+.footer > .bottomPart{
+    background-color: rgb(230,230,230);
+    margin: 0px -24px;
+}
+.footer > .bottomPart > .container{
+    padding-top:15px;
+    padding-bottom:15px;
+    color:grey;
+}
 
 /* PRICING STYLES */
 

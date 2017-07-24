@@ -36,7 +36,7 @@ class __TwigTemplate_ebe37887c91dc783bae78d253ea9a1cac658c713240748fb8199bb6f3f2
           <div class=\"columns\">
               <div class=\"column is-4\">
               <figure class=\"image is-1by1\">
-                  <img src=\"https://via.placeholder.com/512x512\">
+                  <img src=\"/assets/img/slide1.png\">
               </figure>
               </div>
               <div class=\"column is-6\">
@@ -55,7 +55,7 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
           <div class=\"columns\">
               <div class=\"column is-4\">
               <figure class=\"image is-1by1\">
-                  <img src=\"https://via.placeholder.com/512x512\">
+                  <img src=\"/assets/img/slide2.png\">
               </figure>
               </div>
               <div class=\"column is-6\">
@@ -73,7 +73,7 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
           <div class=\"columns\">
               <div class=\"column is-4\">
               <figure class=\"image is-1by1\">
-                  <img src=\"https://via.placeholder.com/512x512\">
+                  <img src=\"/assets/img/slide3.jpg\">
               </figure>
               </div>
               <div class=\"column is-6\">
@@ -91,7 +91,7 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
           <div class=\"columns\">
               <div class=\"column is-4\">
               <figure class=\"image is-1by1\">
-                  <img src=\"https://via.placeholder.com/512x512\">
+                  <img src=\"/assets/img/slide4.png\">
               </figure>
               </div>
               <div class=\"column is-6\">
@@ -192,21 +192,20 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                             <span class=\"icon is-large\"><i class=\"fa fa-leaf\"></i></span>
                             <br>
 
-                                BASIC PLAN 
+                                STARTER PLAN 
                             </div> 
                             <div class=\"price\"> 
-                                <sup>\$</sup>99 
+                                <sup>\$</sup>1.99 
                                 <small>per month</small> 
                             </div> 
                             <ul> 
-
-                                <li><span class=\"icon\"><i class=\"fa fa-print\"></i></span> 30+ Accounts </li> 
-                                <li><span class=\"icon\"><i class=\"fa fa-clock-o\"></i></span> 150+ Projects </li> 
-                                <li><span class=\"icon\"><i class=\"fa fa-trash\"></i></span> Lead Required</li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-server\"></i></span> 10GB Web Space </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-dashboard\"></i></span> 100GB Bandwidth </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-wrench\"></i></span> FREE Site Building Tools</li> 
                             </ul> 
                             <div class=\"pricing-footer\"> 
 
-                                <a href=\"#\" class=\"button is-info is-large\">BOOK ORDER</a> 
+                                <a href=\"/clients/cart.php?a=add&pid=1\" class=\"button is-info is-large\">BOOK ORDER</a> 
                             </div> 
                         </div> 
                     </div> 
@@ -217,21 +216,21 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                         <div class=\"type\">
                         <span class=\"icon is-large\"><i class=\"fa fa-modx\"></i></span>
                             <br> 
-                            MEDIUM PLAN 
+                            STANDARD PLAN 
                         </div> 
                         <div class=\"price\"> 
-                            <sup>\$</sup>199 
+                            <sup>\$</sup>2.59 
                                     <small>per month</small> 
                         </div> 
                         <ul> 
 
-                            <li><span class=\"icon\"><i class=\"fa fa-print\"></i></span> 30+ Accounts </li> 
-                            <li><span class=\"icon\"><i class=\"fa fa-clock-o\"></i></span> 150+ Projects </li> 
-                            <li><span class=\"icon\"><i class=\"fa fa-trash\"></i></span> Lead Required</li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-server\"></i></span> 25GB Web Space </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-dashboard\"></i></span> 200GB Bandwidth </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-wrench\"></i></span> FREE Site Building Tools</li> 
                         </ul> 
                         <div class=\"pricing-footer\"> 
 
-                            <a href=\"#\" class=\"button is-info is-large\">BOOK ORDER</a> 
+                            <a href=\"/clients/cart.php?a=add&pid=2\" class=\"button is-info is-large\">BOOK ORDER</a> 
                         </div> 
                     </div> 
                           </div> 
@@ -242,21 +241,21 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                         <div class=\"type\"> 
                             <span class=\"icon is-large\"><i class=\"fa fa-rocket\"></i></span>
                             <br>
-                            ADVANCE PLAN 
+                            PRO PLAN 
                         </div> 
                         <div class=\"price\"> 
-                            <sup>\$</sup>249 
+                            <sup>\$</sup>4.99 
                                     <small>per month</small> 
                         </div> 
                         <ul> 
 
-                            <li><span class=\"icon\"><i class=\"fa fa-print\"></i></span> 30+ Accounts </li> 
-                            <li><span class=\"icon\"><i class=\"fa fa-clock-o\"></i></span> 150+ Projects </li> 
-                            <li><span class=\"icon\"><i class=\"fa fa-trash\"></i></span> Lead Required</li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-server\"></i></span> 200GB Web Space </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-dashboard\"></i></span> 1TB Bandwidth </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-wrench\"></i></span> FREE Site Building Tools</li>  
                         </ul> 
                         <div class=\"pricing-footer\"> 
 
-                            <a href=\"#\" class=\"button is-info is-large\">BOOK ORDER</a> 
+                            <a href=\"/clients/cart.php?a=add&pid=4\" class=\"button is-info is-large\">BOOK ORDER</a> 
                         </div> 
                     </div> 
                           </div> 
@@ -270,18 +269,17 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                             EXTREME PLAN 
                         </div> 
                         <div class=\"price\"> 
-                            <sup>\$</sup>349 
+                            <sup>\$</sup>6.59 
                                     <small>per month</small> 
                         </div> 
                         <ul> 
-
-                            <li><span class=\"icon\"><i class=\"fa fa-print\"></i></span> 30+ Accounts </li> 
-                            <li><span class=\"icon\"><i class=\"fa fa-clock-o\"></i></span> 150+ Projects </li> 
-                            <li><span class=\"icon\"><i class=\"fa fa-trash\"></i></span> Lead Required</li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-server\"></i></span> 500GB Web Space </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-dashboard\"></i></span> 2TB Bandwidth </li> 
+                                <li><span class=\"icon\"><i class=\"fa fa-wrench\"></i></span> FREE Site Building Tools</li> 
                         </ul> 
                         <div class=\"pricing-footer\"> 
 
-                            <a href=\"#\" class=\"button is-info is-large\">BOOK ORDER</a> 
+                            <a href=\"/clients/cart.php?a=add&pid=5\" class=\"button is-info is-large\">BOOK ORDER</a> 
                         </div> 
                     </div> 
                           </div> 
@@ -315,6 +313,64 @@ And of course, our support is available 24x7 to help with any questions you may 
                 </div>
             </div>
         </section>
+
+<section class=\"section invisible\" data-animate data-animation-classes=\"animated fadeInUp\">
+            <div class=\"container content\">
+            <div class=\"flickity carousel\" data-flickity='{ \"cellAlign\": \"left\",\"contain\": true, \"pageDots\": false,\"autoPlay\": true,\"prevNextButtons\":false }'>
+  <div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/PHP-logo.svg\" />
+      </figure>
+  </div>
+  <div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/MySQL.svg\" />
+      </figure>
+  </div>
+  <div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/CPanel_logo.svg\" />
+      </figure>
+  </div>
+  <div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/Apache_HTTP_server_logo_(2016).svg\" />
+      </figure>
+  </div>
+  <div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/perl-ar21.svg\" />
+      </figure>
+  </div>
+<div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/PhpMyAdmin_logo.svg\" />
+      </figure>
+  </div>
+<div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/rv-logo.png\" />
+      </figure>
+  </div>
+<div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/Softaculous.png\" />
+      </figure>
+  </div>
+<div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/clamAV.svg\" />
+      </figure>
+  </div>
+  <div class=\"carousel-cell\">
+      <figure class=\"image is-1by1\">
+          <img src=\"./assets/img/footer/SSH_Communications_Security_logo.svg\" />
+      </figure>
+  </div>
+</div>
+
+            </div>
+        </section>        
 
 ";
     }

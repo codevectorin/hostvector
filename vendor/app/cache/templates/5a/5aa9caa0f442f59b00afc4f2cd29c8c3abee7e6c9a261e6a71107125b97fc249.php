@@ -37,7 +37,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                     Clarifications? Ask us, we are happy to help you!
                 </p>
                 <hr>
-                <form action=\"\" method=\"post\" onsubmit=\"return validateForm();\">
+                <form action=\"/api/support\" method=\"post\" onsubmit=\"return validateForm();\">
                 <div class=\"field is-horizontal\">
                   <div class=\"field-label is-normal\">
                     <label class=\"label\">From</label>
@@ -45,7 +45,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                   <div class=\"field-body\">
                     <div class=\"field is-grouped\">
                       <p class=\"control is-expanded has-icons-left has-icons-right\">
-                        <input class=\"input\" type=\"text\" placeholder=\"Name\">
+                        <input class=\"input\" type=\"text\" placeholder=\"Name\" name=\"name\">
                         <span class=\"icon is-small is-left\">
                           <i class=\"fa fa-user\"></i>
                         </span>
@@ -54,7 +54,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                     </div>
                     <div class=\"field\">
                       <p class=\"control is-expanded has-icons-left has-icons-right\">
-                        <input class=\"input\" type=\"text\" placeholder=\"Email\">
+                        <input class=\"input\" type=\"text\" placeholder=\"Email\" name=\"email\">
                         <span class=\"icon is-small is-left\">
                           <i class=\"fa fa-envelope\"></i>
                         </span>
@@ -72,7 +72,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                     <div class=\"field is-narrow\">
                       <div class=\"control\">
                         <div class=\"select is-fullwidth\">
-                          <select name=\"hv-department\">
+                          <select name=\"department\">
                             <option>Sales</option>
                             <option>Marketing</option>
                             <option>Services</option>
@@ -91,12 +91,12 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                   <div class=\"field-body\">
                     <div class=\"field is-narrow\">
                       <div class=\"control\">
-                        <label class=\"radio\">
-                          <input type=\"radio\" name=\"member\">
+                        <label class=\"radio\" name=\"client\">
+                          <input type=\"radio\" value=\"1\" name=\"member\">
                           Yes
                         </label>
                         <label class=\"radio\">
-                          <input type=\"radio\" name=\"member\" checked>
+                          <input type=\"radio\" value=\"0\" name=\"member\" checked>
                           No
                         </label>
                       </div>
@@ -111,7 +111,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                   <div class=\"field-body\">
                     <div class=\"field\">
                       <p class=\"control is-expanded has-icons-left has-icons-right\">
-                        <input class=\"input\" type=\"text\" placeholder=\"e.g. Do you have 1 year subscription?\">
+                        <input class=\"input\" type=\"text\" name=\"title\" placeholder=\"e.g. Do you have 1 year subscription?\">
                           <span class=\"icon is-small is-left\">
                           <i class=\"fa fa-sticky-note\"></i>
                         </span>
@@ -128,7 +128,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                   <div class=\"field-body\">
                     <div class=\"field\">
                       <p class=\"control is-expanded has-icons-left has-icons-right\">
-                        <textarea class=\"textarea\" placeholder=\"Explain how we can help you\" id=\"msgbox\"></textarea>
+                        <textarea class=\"textarea\" name=\"message\" placeholder=\"Explain how we can help you\" id=\"msgbox\"></textarea>
                         <label class=\"response\"></label>
                       </p>
                     </div>
@@ -156,6 +156,7 @@ class __TwigTemplate_eecf36a6bfb52f38c0cc28a1b2a3f99037605ece232021ececb88fe789a
                   <div class=\"field-body\">
                     <div class=\"field\">
                       <div class=\"control\">
+                        <input type=\"hidden\" name=\"path\" value=\"/contact.html?submit=success\">
                         <input type=\"submit\" class=\"button is-primary\" value=\"Send Message\">
                       </div>
                     </div>
