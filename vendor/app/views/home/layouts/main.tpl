@@ -20,6 +20,7 @@
 
         {% include 'home/layouts/includes/footer.tpl' %}
 
+        <!--<script async="" src="https://embed.tawk.to/58d50c1ef97dd14875f59ebf/default" charset="UTF-8" crossorigin="*"></script>-->
         <script src="assets/js/bulma.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.9/flickity.pkgd.min.js"></script>
         <script src="assets/js/animate.js"></script>
