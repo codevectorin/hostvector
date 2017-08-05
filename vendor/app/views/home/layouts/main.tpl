@@ -116,26 +116,28 @@
         <script src="assets/js/bulma.js"></script>
         <script src="assets/js/animate.js"></script>
         <script>
-        var animate = new Animate({
-            target: '[data-animate]',
-            animatedClass: 'visible',
-            offset: [0.20, 0.5],
-            delay: 0,
-            remove: false,
-            reverse: false,
-            scrolled: false,
-            debug: false,
-            onLoad: true,
-            onScroll: true,
-            onResize: false,
-            callbackOnInit: function() {
-                console.log('Initialised');
-            },
-            callbackOnAnimate: function(element) {
-                console.log(element);
-            }
-        });
-        animate.init();
+        if(Math.max(document.documentElement.clientWidth, window.innerWidth || 0) > 720){
+            var animate = new Animate({
+                target: '[data-animate]',
+                animatedClass: 'visible',
+                offset: [0.20, 0.5],
+                delay: 0,
+                remove: false,
+                reverse: false,
+                scrolled: false,
+                debug: false,
+                onLoad: true,
+                onScroll: true,
+                onResize: false,
+                callbackOnInit: function() {
+                    console.log('Initialised');
+                },
+                callbackOnAnimate: function(element) {
+                    console.log(element);
+                }
+            });
+            animate.init();
+        }
     </script>
     {% endblock %} 
 

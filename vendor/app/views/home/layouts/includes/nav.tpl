@@ -22,9 +22,9 @@
       <a class="navbar-item " href="/features.html">
         Features
       </a>
-      <a class="navbar-item " href="/business.html">
+      <!--<a class="navbar-item " href="/business.html">
         Business
-      </a>
+      </a>-->
     </div>
 
     <div class="navbar-end">
