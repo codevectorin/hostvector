@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Megrim|Luckiest+Guy|Monda');
 .blinking-text {
     animation: blinker 1s linear infinite;
     -webkit-user-select: none;
@@ -596,3 +596,37 @@ section#some-features .card-image .image img {
     padding: 0;
 }
 
+.input:focus,.textarea:focus,select:focus,select:active {
+border-color: #6a9ae5;
+box-shadow: 0 0 12px 0 #84abea;
+-webkit-box-shadow: 0 0 12px 0 #84abea;
+-moz-box-shadow: 0 0 12px 0 #84abea;
+}
+.overlay {
+    background: rgba(0, 108, 255,.5);
+    position: relative;
+    z-index: 1;
+}
+.carousel-cell p {
+    font-family: Monda;
+    text-shadow: 0 0 3px #19396E;
+    font-size: 18px;
+    margin-top: 1.1em;
+    color: whitesmoke;
+}
+
+.carousel-cell h1.title {
+    font-weight: 800;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 3;
+  left: 0;
+  z-index: 0;
+} 
+
+.carousel-cell {
+  height: 100%;
+}

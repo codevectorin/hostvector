@@ -9,4 +9,35 @@
      });
  })();
 
-//#3273dc
+window.onload = function() {
+Particles.init({
+  maxParticles: 150,
+  selector: '.background',
+  connectParticles: true,
+  color: '#7fa4d8',
+  speed: 0.4,
+  responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        maxParticles: 120,
+      }
+    }, {
+      breakpoint: 420,
+      options: {
+        maxParticles: 80
+      }
+    },{
+      breakpoint: 360,
+      options: {
+        maxParticles: 50
+      }
+    }, {
+      breakpoint: 320,
+      options: {
+        maxParticles: 40
+      }
+    }
+  ] 
+});
+}; 

@@ -1,4 +1,4 @@
-          <nav class="navbar container">
+<nav class="navbar container">
   <div class="navbar-brand">
     <a class="nav-item" href="../index.html">
         <img src="assets/hv.png">
@@ -25,10 +25,6 @@
       <a class="navbar-item " href="/business.html">
         Business
       </a>
-      <a class="navbar-item " href="https://rockitech.net">
-        Blog
-      </a>
-      
     </div>
 
     <div class="navbar-end">

@@ -1,77 +1,105 @@
 {% extends 'home/layouts/main.tpl' %}
 
-{% block fullscreenHeroBody %}            
-            <div class="hero-body">
-            <div class="flickity1 carousel invisible" data-animate data-animation-classes="animated fadeInDown" data-animation-delay="500" data-flickity='{ "cellAlign": "left", "autoPlay": true,"wrapAround": true }'>
+{% block title %}Professional Web Hosting Services{% endblock %}
+
+{% block css %}
+{{ parent() }}
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.9/flickity.min.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block js %}
+{{ parent() }}
+          <script src="assets/js/particles.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.9/flickity.pkgd.min.js"></script>
+{% endblock %}
+
+
+{% block fullscreenHeroBody %}   
+
+<canvas class="background"></canvas>   
+ <div class="hero-body">
+  <div class="flickity1 carousel invisible" data-animate data-animation-classes="animated fadeInDown" data-animation-delay="500" data-flickity='{ "cellAlign": "left", "autoPlay": 4000,"wrapAround": true,"prevNextButtons":false,"initialIndex": 1}'>
   <div class="carousel-cell">
-      <div class="container" style="height: 100%;display: flex;align-items: center; justify-content: center;">
+      <div class="container">
           <div class="columns">
               <div class="column is-4">
               <figure class="image is-1by1">
                   <img src="/assets/img/slide1.png">
               </figure>
               </div>
-              <div class="column is-6">
-                  <p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia a est nec hendrerit. Aenean volutpat nec mi nec egestas. Maecenas vitae vestibulum ex. Etiam sagittis luctus mi, eu convallis justo fringilla vitae. Sed in maximus purus, vel ullamcorper erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras blandit felis vitae ullamcorper sagittis. Aenean bibendum mauris quis venenatis sodales. Morbi eget nisl tellus. Ut laoreet congue est, at vehicula mauris eleifend ut. Aliquam pulvinar tempor mauris vitae viverra. In vitae sodales velit.
-
-Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra. Aliquam venenatis ornare felis nec dapibus. Nullam nibh neque, hendrerit a facilisis eu, congue at urna. Morbi ornare, odio nec cursus hendrerit, mauris sapien placerat est, et semper lacus massa non elit. Aliquam egestas bibendum neque, vel viverra felis ullamcorper semper. In sit amet pellentesque est.</p>
+              <div class="column is-8">   
+              <h1 class="title">LOAD BALANCING</h1>
+              <p>
+                  Distributes incoming requests over a number of backend servers in the cluster! <br><br>
+                  <i class="fa fa-plus"></i> High Availability Solution <br>
+                  <i class="fa fa-plus"></i> Based on Nodes availability as well as latency <br>
+                  <i class="fa fa-plus"></i> URL Based Balancing <br>
+                  <i class="fa fa-plus"></i> Built In Security <br>
+              </p>
               </div>
           </div>
       </div>
   </div>
   
   <div class="carousel-cell">
-      <div class="container" style="height: 100%;display: flex;align-items: center; justify-content: center;">
+      <div class="container">
           <div class="columns">
               <div class="column is-4">
               <figure class="image is-1by1">
                   <img src="/assets/img/slide2.png">
               </figure>
               </div>
-              <div class="column is-6">
-                  <p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia a est nec hendrerit. Aenean volutpat nec mi nec egestas. Maecenas vitae vestibulum ex. Etiam sagittis luctus mi, eu convallis justo fringilla vitae. Sed in maximus purus, vel ullamcorper erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras blandit felis vitae ullamcorper sagittis. Aenean bibendum mauris quis venenatis sodales. Morbi eget nisl tellus. Ut laoreet congue est, at vehicula mauris eleifend ut. Aliquam pulvinar tempor mauris vitae viverra. In vitae sodales velit.
-
-Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra. Aliquam venenatis ornare felis nec dapibus. Nullam nibh neque, hendrerit a facilisis eu, congue at urna. Morbi ornare, odio nec cursus hendrerit, mauris sapien placerat est, et semper lacus massa non elit. Aliquam egestas bibendum neque, vel viverra felis ullamcorper semper. In sit amet pellentesque est.</p>
+              <div class="column is-8">
+              <h1 class="title">LINUX HOSTING</h1>
+              <p>
+                  Professional Linux Hosting With High Security! <br><br>
+                  <i class="fa fa-plus"></i> Powered by cPanel, Apache, MySQL, PHP &amp; more <br>
+                  <i class="fa fa-plus"></i> 99.9% uptime <br>
+                  <i class="fa fa-plus"></i> FFmpeg <br>
+                  <i class="fa fa-plus"></i> Website Optimization Tools <br>
+             </p>
               </div>
           </div>
       </div>
   </div>
   <div class="carousel-cell">
-      <div class="container" style="height: 100%;display: flex;align-items: center; justify-content: center;">
+      <div class="container">
           <div class="columns">
               <div class="column is-4">
               <figure class="image is-1by1">
-                  <img src="/assets/img/slide3.jpg">
+                  <img src="/assets/img/slide3.png">
               </figure>
               </div>
-              <div class="column is-6">
+              <div class="column is-8">
+              <h1 class="title">CLOUDFLARE</h1>
                   <p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia a est nec hendrerit. Aenean volutpat nec mi nec egestas. Maecenas vitae vestibulum ex. Etiam sagittis luctus mi, eu convallis justo fringilla vitae. Sed in maximus purus, vel ullamcorper erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras blandit felis vitae ullamcorper sagittis. Aenean bibendum mauris quis venenatis sodales. Morbi eget nisl tellus. Ut laoreet congue est, at vehicula mauris eleifend ut. Aliquam pulvinar tempor mauris vitae viverra. In vitae sodales velit.
-
-Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra. Aliquam venenatis ornare felis nec dapibus. Nullam nibh neque, hendrerit a facilisis eu, congue at urna. Morbi ornare, odio nec cursus hendrerit, mauris sapien placerat est, et semper lacus massa non elit. Aliquam egestas bibendum neque, vel viverra felis ullamcorper semper. In sit amet pellentesque est.</p>
+                  Cloudflare speeds up and protects millions of websites, APIs, SaaS services etc. Get Integrated Cloudflare Support <br><br>
+                  <i class="fa fa-plus"></i> Web application firewall <br>
+                  <i class="fa fa-plus"></i> Domain name server <br>
+                  <i class="fa fa-plus"></i> Performance via Caching <br>
+                  <i class="fa fa-plus"></i> Analytics
+                  </p>
               </div>
           </div>
       </div>
   </div>
   <div class="carousel-cell">
-      <div class="container" style="height: 100%;display: flex;align-items: center; justify-content: center;">
+      <div class="container">
           <div class="columns">
               <div class="column is-4">
               <figure class="image is-1by1">
                   <img src="/assets/img/slide4.png">
               </figure>
               </div>
-              <div class="column is-6">
+              <div class="column is-8">
+               <h1 class="title">SUITABLE PACKAGES</h1>
                   <p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia a est nec hendrerit. Aenean volutpat nec mi nec egestas. Maecenas vitae vestibulum ex. Etiam sagittis luctus mi, eu convallis justo fringilla vitae. Sed in maximus purus, vel ullamcorper erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras blandit felis vitae ullamcorper sagittis. Aenean bibendum mauris quis venenatis sodales. Morbi eget nisl tellus. Ut laoreet congue est, at vehicula mauris eleifend ut. Aliquam pulvinar tempor mauris vitae viverra. In vitae sodales velit.
-
-Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra. Aliquam venenatis ornare felis nec dapibus. Nullam nibh neque, hendrerit a facilisis eu, congue at urna. Morbi ornare, odio nec cursus hendrerit, mauris sapien placerat est, et semper lacus massa non elit. Aliquam egestas bibendum neque, vel viverra felis ullamcorper semper. In sit amet pellentesque est.</p>
+                  Choose plans or packages according to your needs!<br><br>
+                  <i class="fa fa-plus"></i> Responsive Billing Panel <br>
+                  <i class="fa fa-plus"></i> Fastest Payment <br>
+                  <i class="fa fa-plus"></i> Upgrade or Degrade at anytime! <br>
+                  <i class="fa fa-plus"></i> 24/7 Support
+                  </p>
               </div>
           </div>
       </div>
@@ -79,6 +107,8 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
 </div>
             {% endblock %}
             {% block content %}
+
+<!-- features -->
         <section class="section" id="features">
             <div class="container invisible" data-animate data-animation-classes="animated fadeIn" data-animation-delay="500">
                 <h2 class="title is-1" style="color: #3273dc; font-weight: bold;">
@@ -116,13 +146,16 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                             <img src="./assets/img/uptime.svg"/>
                         </figure>
                         <h3 class="title is-4">Uptime</h3>
-                        <p>99.9% uptime guarantee lol text.<b>change</b></p>
+                        <p>99.9% Uptime Guarantee.It is a measure of how long a hosting machine has been up and running. </p>
                     </div>
                 </div>
                 <br>
                 <div class="has-text-centered invisible" data-animate data-animation-classes="animated fadeInUp" data-animation-delay="1000"><a class="button is-outlined is-large is-info">More Features &rarr;</a></div>
             </div>
         </section>
+
+<!-- promo -->
+
 <section class="hero is-info is-small invisible" data-animate data-animation-classes="animated fadeInRight" id="promo-section">
   <div class="hero-body">
     <div class="container">
@@ -134,13 +167,15 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
             </span>
         </div>
         <div class="column" style="text-align: center;">
-        <span class="promo-coupon" style=" border: 3px dashed white;padding:10px;line-height:70px; font-size: 2.4em; text-align: center; font-weight: bold;color: whitesmoke;">PROMO143<span class="blinking-text">&#124;</span></span>
+        <span class="promo-coupon" style=" border: 3px dashed white;padding:10px;line-height:70px; font-size: 2.4em; text-align: center; font-weight: bold;color: whitesmoke;">GIVEME30<span class="blinking-text">&#124;</span></span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+
+<!-- plans quick view -->
         <section class="section invisible" data-animate data-animation-classes="animated fadeInUp">
             <div class="container"> 
             <h2 class="title is-1" style="color: #3273dc; font-weight: bold;">
@@ -150,7 +185,7 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                     Our awesome plans for you!
                 </h3>
                 <br>
-                <div class="columns price-list-interactive invisible" data-animate data-animation-classes="animated fadeIn" data-animation-delay="1000"> 
+                <div class="columns price-list-interactive invisible" data-animate data-animation-classes="animated fadeIn" data-animation-delay="500"> 
                 <div class="column is-3"> 
                     <div class="hv-pricing-wrapper"> 
                         <div class="hv-pricing-box"> 
@@ -257,6 +292,8 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
 
             </div> 
         </section>
+
+<!-- wordpress hosting -->
         <section class="section invisible" data-animate data-animation-classes="animated fadeInUp" style="background-color: whitesmoke;">
             <div class="container">
                 <div class="columns">
@@ -267,7 +304,7 @@ Nam volutpat lectus sit amet dignissim varius. Quisque sodales lacinia pharetra.
                         <div class="title is-3">Managed Wordpress Hosting</div>
                     </div>
                     <div class="column">
-                    <span class="subtitle is-4" style="padding-bottom: 25px">We handle the hosting setup and management dirty work with priority support so you can focus on creating an amazing website!</span>
+                    <span class="subtitle is-4" style="padding-bottom: 25px">We handle the hosting setup and management dirty work with priority support so you can focus on creating an amazing website!</span><br>
 <p>Built on our state-of-the-art web hosting, Managed WordPress Hosting is the perfect solution for anyone who wants the power and simplicity of WordPress without the hassle of constant updates and technical adjustments.
 
 More than just a simple install, WordPress is seamlessly integrated to your hosting so the moment you log in, you’re able to build, edit and manage your site. We’ve also modified our servers specifically for WordPress, giving you a level of speed and security you can’t get from a standard web hosting plan.
@@ -275,12 +312,12 @@ More than just a simple install, WordPress is seamlessly integrated to your host
 And of course, our support is available 24x7 to help with any questions you may have. In short, there’s no easier way to build and manage a fast, secure, reliable WordPress website or blog.
 </p>
 <br>
-                        <div class="has-text-centered"><a class="button is-primary is-large is-outlined">Know More</a></div>
-                    </div>
                 </div>
             </div>
         </section>
 
+
+<!-- special feature carousel -->
 <section class="section invisible" data-animate data-animation-classes="animated fadeInUp">
             <div class="container content">
             <div class="flickity carousel" data-flickity='{ "cellAlign": "left","contain": true, "pageDots": false,"autoPlay": true,"prevNextButtons":false }'>
