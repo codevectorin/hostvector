@@ -1,18 +1,19 @@
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <head>
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+            <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
             <title>
-                Profession Web Hosting Services - HostVector
+            {% if block('title') is defined %}{% endif %} - HostVector
             </title>
+            {% block css %}
             <link href="https://fonts.googleapis.com/css?family=Dosis|Montserrat|Open+Sans|Raleway" rel="stylesheet">
             <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css" rel="stylesheet" type="text/css">
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.9/flickity.min.css" rel="stylesheet" type="text/css">
             <link href="./assets/css/custom.css" rel="stylesheet" type="text/css">
             <link href="./assets/css/animate.css" rel="stylesheet" type="text/css">
+            {% endblock %}
             <noscript>
                 <style>.invisible { opacity: 1; }</style>
-            </noscript>
-                          
+            </noscript> 
             <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
             <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
             <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
@@ -29,4 +30,6 @@
             <link rel="manifest" href="assets/img/favicon/manifest.json">
             <meta name="msapplication-TileColor" content="#ffffff">
             <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
-            <meta name="theme-color" content="#ffffff"></meta>
+            <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
