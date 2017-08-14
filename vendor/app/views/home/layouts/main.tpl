@@ -137,6 +137,12 @@
                 }
             });
             animate.init();
+        }else{
+            var cssStyle = document.createElement('style');
+            cssStyle.type = 'text/css';
+            var rules = document.createTextNode(".invisible { opacity: 1; }");
+            cssStyle.appendChild(rules);
+            document.getElementsByTagName("head")[0].appendChild(cssStyle);
         }
     </script>
     {% endblock %} 
