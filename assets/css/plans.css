@@ -1,6 +1,5 @@
 .plans-pricing {
     overflow: hidden;
-    background: #f7f7f7
 }
 
 .plans-pricing .head {
@@ -430,13 +429,28 @@
 .plans-pricing .table .heading {
     color: #fff;
     display: block;
+    position: relative;
     font-size: 20px;
     font-weight: 600;
     line-height: 27px;
     text-align: center;
     background: #285cb0;
-    padding: 14px 10px 16px;
-    text-transform: capitalize
+    padding: 28px 10px 16px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.plans-pricing .table .heading:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 24px 150px 0 150px;
+  border-color: #285cb0 transparent transparent transparent;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media only screen and (max-width:1199px) {
@@ -455,6 +469,12 @@
     }
 }
 
+.plans-pricing .table th{
+    background-color: #2d67c6;
+    }
+.plans-pricing .table th.col1{
+    background-color: transparent;
+}
 .plans-pricing .table .heading span {
     font-weight: 700;
     text-transform: uppercase
@@ -629,7 +649,9 @@ tr td {
     border-radius: 3px;
     border:0px;
 }
-
+.panel-title{
+    letter-spacing: 1.5px;
+}
 tr td .icon {
     color: #3273dc
 }

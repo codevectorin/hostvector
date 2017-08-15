@@ -1,6 +1,6 @@
 <nav class="navbar container">
   <div class="navbar-brand">
-    <a class="nav-item" href="../index.html">
+    <a class="nav-item" href="/">
         <img src="assets/hv.png">
     </a>
 
@@ -13,7 +13,7 @@
 
   <div id="navMenuExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item " href="/">
+      <a class="navbar-item " href="/index.html">
         Home
       </a>
       <a class="navbar-item " href="/plans.html">
