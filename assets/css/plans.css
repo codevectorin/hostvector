@@ -17,11 +17,6 @@
     text-transform: capitalize
 }
 
-.plans-pricing .container {
-    padding-top: 85px;
-    padding-bottom: 63px
-}
-
 @media only screen and (max-width:767px) {
     .smooth-links .anchor-nav a:after {
         display: none!important
@@ -32,25 +27,12 @@
     }
 }
 
-.plans-pricing.web .head {
-    padding: 0 0 72px
-}
-
-.plans-pricing.web .container {
-    padding-top: 92px
-}
 
 @media only screen and (max-width:767px) {
     .plans-pricing.web .container {
         padding-top: 30px
     }
 }
-
-.plans-pricing.web h1 {
-    margin: 0 0 16px;
-    padding: 0 0 33px
-}
-
 
 .plans-pricing .btn-primary {
     font-size: 15px;
@@ -135,15 +117,13 @@
 .plans-pricing .table th {
     padding: 0;
     color: #fff;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 0 0 0 1px
+    border: 0px;
 }
 
 .plans-pricing .table th.col1 {
     border-left: 0;
     border-style: solid;
-    border-width: 0 0 1px;
+    border-width: 0 0 1px 0px;
     border-color: #f7f7f7 #f7f7f7 #e9e9e9
 }
 
@@ -454,7 +434,7 @@
     font-weight: 600;
     line-height: 27px;
     text-align: center;
-    background: #4C8DF6;
+    background: #285cb0;
     padding: 14px 10px 16px;
     text-transform: capitalize
 }
@@ -484,7 +464,7 @@
     height: 50px;
     text-align: center;
     position: relative;
-    background: #3273DC;
+    background: #3273dc;
     padding: 10px 0 15px;
     color: #fff
 }
@@ -597,7 +577,7 @@
     font-weight: 600;
     padding: 3px 6px;
     line-height: 24px;
-    border-radius: 17px;
+    border-radius: 12px;
     background: #fff
 }
 
@@ -632,7 +612,7 @@
 }
 
 .heading-block .resource {
-    background-color: grey;
+    background-color: #2d67c6;
     padding: 15px 10px;
     margin-top: -10px;
     text-align: center
@@ -655,4 +635,8 @@ tr td .icon {
 }
 .panel,.panel:not(:last-child){
 	margin-bottom: 0px
+}
+tbody.last-child{
+    border-bottom: 1px solid #e9e9e9; 
+    border-radius: 3px;
 }

@@ -5,7 +5,12 @@
 .post-header span.author {
     font-size: 1.25rem;
 }
-
+h1.title{
+    color: #3273dc; font-weight: bold;
+}
+p.subtitle,span.subtitle{
+    color: grey
+}
 @media screen and (max-width: 768px) {
     .post-header {
         text-align: center;
